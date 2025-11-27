@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css box model</title>
+    <style>
+        body{
+            magin: 0px;
+            padding: 0px;
+        }
+        html,*{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border box;
+
+        }
+        #main{
+           width: 600px;
+           height: 300px;
+           background-color : green; 
+
+
+        }
+        #left{
+            width: 250px;
+            height: 250px;
+            background-color: blue
+
+        }
+        #right{
+            widht: 420px;
+            height: 320px;
+            background-color: brown
+
+        }
+        .rgt_box{
+            width: 580px;
+            height: 170px;
+            background-color: blueviolet;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="main"></div>
+
+    </div>
+    <div id="right"> 
+        <div class="rgt_box"></div>
+        <div class ="rgt_box"></div>
+    </div>
+    
+    
+</body>
+</html>
